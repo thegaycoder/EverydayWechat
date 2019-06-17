@@ -20,13 +20,13 @@ turing_conf:
 # 一个 Al (http://www.yige.ai/),这个功能挺多的，朋友们自行申请，训练。
 #  client_token.客户端访问令牌。note: 已填入的这个是博主自己申请的。朋友们最好自行申请并替换。
 yigeai_conf:
-  client_token: '16EF6A50EC5912DB1428147256CFA4FC'
+  client_token: '586BA887AD5899498FEA8C7BD6EE1E0C'
 
 # 指定自动回复的好友名单。（填：文件传输助手，可回复自己，测试效果）
 # - '好友1'
 # - '好友2'
 auto_reply_names:
-  - '古典'
+  - '小菇凉赵晓洛'
   - '文件传输助手'
 
 
@@ -35,26 +35,23 @@ alarm_info:
   #True 开启定时提醒，False 关闭
   is_alarm: True
   #定时发送时间
-  alarm_timed: '19:00'
+  alarm_timed: '07:00'
 
 girlfriend_infos:
   - #女友微信昵称或者备注名，不能输入微信号。（如填：文件传输助手，发消息到文件传输助手，测试效果）
-    wechat_name: '文件传输助手'
+    wechat_name: '小菇凉赵晓洛'
     #女友所在城市，用于发送天气。（可空）
-    city_name: '桂林'
+    city_name: '信阳'
     # 格言渠道（1 : ONE●一个，2 : 词霸（每日英语，双语）4 : 一言，5：笑话)(可空)
-    dictum_channel : 2
+    dictum_channel : 1
     # 从那天开始勾搭的(最终效果为：宝贝这是我们在一起的第 111 天)（可空）
-    start_date: '2017-10-10'
+    start_date: '2019-05-28'
     # 后缀（可空）
-    sweet_words: '来自最爱你的我。'
+    sweet_words: '来自最帅的我。'
 
 #  如果你有多个好友需要发送，则参照这个样式，复制即可
 #  如不需要，则删除或注解下面所有的数据
-  - group_name: 'EverydayWechat 交流群' # 群聊名称，必须要把需要的群聊保存到通讯录。
-    city_name: '漳州'
-    dictum_channel : 4
-    start_date: '2019-6-15'
-    sweet_words: '来自帅气的群主。'
+#  - group_name: 'EverydayWechat 交流群' # 群聊名称，必须要把需要的群聊保存到通讯录。
+ 
 
 
