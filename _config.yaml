@@ -9,7 +9,7 @@ is_forced_switch: False
 is_auto_relay: True
 
 # 机器人渠道（1: 图灵机器人，2: 一个AI ,3 : 青云客)
-bot_channel: 2
+bot_channel: 1
 
 #图灵机器人(http://www.tuling123.com/)免费用户每天可用 100 条。
 #请在官网注册并申请 apikey ,userID。
